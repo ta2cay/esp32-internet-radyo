@@ -4,6 +4,7 @@
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-Arduino-F5822A?logo=platformio&logoColor=white)
 ![C++](https://img.shields.io/badge/dil-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Lisans](https://img.shields.io/badge/lisans-MIT-green)
+[![YouTube](https://img.shields.io/badge/YouTube-@TA2CAY-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@TA2CAY)
 
 Tek bir ESP32 kartıyla yapılmış, radyo istasyonlarını Wi-Fi üzerinden çalan, renkli ekranlı,
 hava durumu gösteren masaüstü internet radyosu.
@@ -15,7 +16,8 @@ hava durumu gösteren masaüstü internet radyosu.
 Ses, **MAX98357A** I2S dijital amfisiyle doğrudan hoparlöre verilir. Ayrıca DAC veya analog amfi gerekmez.
 Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = tamam**.
 
-> Proje **TA2CAY** tarafından geliştirildi. Yapım aşamaları YouTube kanalımda anlatılıyor.
+> 🎬 **Projenin yapımını adım adım videoda anlattım:** [youtube.com/@TA2CAY](https://www.youtube.com/@TA2CAY)
+> Beğendiysen kanala abone olmayı unutma! 🔔
 
 ---
 
@@ -33,6 +35,7 @@ Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = ta
 - [Yazılım nasıl çalışıyor?](#yazılım-nasıl-çalışıyor)
 - [Sorun giderme](#sorun-giderme)
 - [Proje yapısı](#proje-yapısı)
+- [YouTube kanalı](#youtube-kanalı)
 - [Lisans](#lisans)
 - [English summary](#english-summary)
 
@@ -69,8 +72,8 @@ Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = ta
 |---|---|
 | ![Devre yakından](docs/images/devre-yakin.jpg) | ![Devrenin tamamı](docs/images/devre-genel.jpg) |
 
-Breadboard üzerinde kurulu ilk sürüm: solda ekran, ses potu (SES) ve encoder (KANAL), ortada DHT11,
-sağda MAX98357A amfi ve hoparlör, altta ESP32 (vidalı klemens adaptöründe) ve pil + 5 V güç modülü.
+Breadboard üzerinde kurulu ilk sürüm: solda ekran, ses potu (SES) ve encoder (KANAL), ortada DHT11 ve
+ESP32 (vidalı klemens adaptöründe), üstte MAX98357A amfi ve hoparlör, sağda pil + 5 V güç modülü.
 
 ---
 
@@ -350,6 +353,22 @@ esp32-internet-radyo/
 
 ---
 
+## YouTube kanalı
+
+<p align="center">
+  <a href="https://www.youtube.com/@TA2CAY">
+    <img src="https://img.shields.io/badge/▶_Videoyu_izle-YouTube_@TA2CAY-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube @TA2CAY">
+  </a>
+</p>
+
+Bu radyonun parça parça nasıl kurulduğunu, bağlantıları ve yazılımı **YouTube kanalımda** anlatıyorum.
+Elektronik, ESP32, Arduino ve amatör telsiz projeleri için kanala göz at:
+**[youtube.com/@TA2CAY](https://www.youtube.com/@TA2CAY)**
+
+Videoyu beğenip **abone olursan** ve yorumlarda soru sorarsan yeni projeler için çok destek olursun. 🙏
+
+---
+
 ## Lisans
 
 Kod **MIT** lisanslıdır, bkz. [LICENSE](LICENSE). Fontlar **SIL Open Font License 1.1** ile lisanslıdır (`tools/fonts/OFL-*.txt`).
@@ -369,3 +388,5 @@ Volume is set with a potentiometer.
 Build with PlatformIO: copy `include/secrets.example.h` to `include/secrets.h`, add your Wi-Fi, then run
 `pio run -t uploadfs` and `pio run -t upload`. HLS (`.m3u8`) streams are not supported without PSRAM.
 Code: MIT. Fonts: SIL OFL 1.1.
+
+🎬 Build video (Turkish): [youtube.com/@TA2CAY](https://www.youtube.com/@TA2CAY)
