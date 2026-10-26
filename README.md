@@ -5,8 +5,12 @@
 ![C++](https://img.shields.io/badge/dil-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Lisans](https://img.shields.io/badge/lisans-MIT-green)
 
-Tek bir ESP32 kartıyla yapılmış, **88 Türk radyo istasyonunu** Wi-Fi üzerinden çalan, renkli ekranlı,
+Tek bir ESP32 kartıyla yapılmış, radyo istasyonlarını Wi-Fi üzerinden çalan, renkli ekranlı,
 hava durumu gösteren masaüstü internet radyosu.
+
+<p align="center">
+  <img src="docs/images/devre-yakin.jpg" alt="ESP32 internet radyosu devresi" width="600">
+</p>
 
 Ses, **MAX98357A** I2S dijital amfisiyle doğrudan hoparlöre verilir. Ayrıca DAC veya analog amfi gerekmez.
 Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = tamam**.
@@ -18,6 +22,7 @@ Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = ta
 ## İçindekiler
 
 - [Özellikler](#özellikler)
+- [Fotoğraflar](#fotoğraflar)
 - [Ekran düzeni](#ekran-düzeni)
 - [Malzeme listesi](#malzeme-listesi)
 - [Bağlantı şeması](#bağlantı-şeması)
@@ -37,7 +42,7 @@ Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = ta
 
 **Radyo**
 - MP3 ve AAC yayınları (HTTP ve HTTPS, `.pls` dahil)
-- 6 kategoride 88 istasyon: Haber / Spor, Türkçe Pop, Slow, Halk / Özgün, Rock, Zonguldak
+- Kategorilere ayrılmış istasyonlar: Haber / Spor, Türkçe Pop, Slow, Halk / Özgün, Rock, Zonguldak
 - İstasyon listesi kodun içinde değil, `data/stations.json` dosyasında. Kod değiştirmeden düzenlenebilir.
 - Favoriler (★) ve Son Dinlenenler (son 10)
 - Kapatıp açınca son dinlenen istasyondan devam eder
@@ -55,6 +60,17 @@ Kumanda tek bir döner düğmeyle (encoder) yapılır: **çevir = seç, bas = ta
 **Hava ve oda**
 - **İçeri kartı:** DHT11 ile oda sıcaklığı ve nemi, bugünkü dinleme süresi ve şarkı sayısı
 - **Dışarı kartı:** [Open-Meteo](https://open-meteo.com) ile anlık hava (simge + Türkçe açıklama) ve **3 günlük tahmin**. API anahtarı gerekmez.
+
+---
+
+## Fotoğraflar
+
+| Devre (yakından) | Devrenin tamamı |
+|---|---|
+| ![Devre yakından](docs/images/devre-yakin.jpg) | ![Devrenin tamamı](docs/images/devre-genel.jpg) |
+
+Breadboard üzerinde kurulu ilk sürüm: solda ekran, ses potu (SES) ve encoder (KANAL), ortada DHT11,
+sağda MAX98357A amfi ve hoparlör, altta ESP32 (vidalı klemens adaptöründe) ve pil + 5 V güç modülü.
 
 ---
 
@@ -85,8 +101,6 @@ Alttaki kartlar kendiliğinden döner:
 - **İçeri:** sıcaklık → nem → bugünkü dinleme (4 saniyede bir)
 - **Dışarı:** şu an (8 s) → yarın → sonraki iki gün (4'er s)
 
-<!-- Fotoğraflar: docs/images/ klasörüne eklenince burada gösterilecek -->
-
 ---
 
 ## Malzeme listesi
@@ -101,6 +115,7 @@ Alttaki kartlar kendiliğinden döner:
 | Potansiyometre (10 kΩ, lineer) | 1 | Ses ayarı |
 | DHT11 sıcaklık/nem modülü (3 bacaklı) | 1 | Üzerinde pull-up direnci olan modül |
 | 5 V 2 A USB adaptör | 1 | Bilgisayar USB'si yetmeyebilir |
+| *(isteğe bağlı)* 18650 pil yuvası + 5 V USB çıkışlı yükseltici modül + anahtar | 1 | Kablosuz kullanım için |
 | Breadboard, jumper kablolar | — | |
 
 ---
@@ -347,7 +362,7 @@ Kod **MIT** lisanslıdır, bkz. [LICENSE](LICENSE). Fontlar **SIL Open Font Lice
 **ESP32 Internet Radio.** A desktop web radio built on a single ESP32-WROOM-32 (no PSRAM). It streams MP3/AAC (HTTP/HTTPS)
 to a **MAX98357A** I2S class-D amp and shows everything on a 2.8" ILI9341 TFT: clock, station card, now-playing with
 scrolling text, an 8-band spectrum, volume, indoor temperature/humidity (DHT11) and outdoor weather with a 3-day forecast
-(Open-Meteo, no API key). 88 Turkish stations in 6 categories are loaded from `data/stations.json` (LittleFS).
+(Open-Meteo, no API key). Turkish stations, grouped into categories, are loaded from `data/stations.json` (LittleFS).
 Navigation uses one rotary encoder (turn = select, press = OK), with favourites and recently played lists stored in NVS.
 Volume is set with a potentiometer.
 
