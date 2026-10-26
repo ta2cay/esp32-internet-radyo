@@ -1,0 +1,416 @@
+{
+  "categories": [
+    {
+      "name": "Haber / Spor",
+      "stations": [
+        {
+          "name": "TRT Radyo Haber",
+          "url": "https://trt.radyotvonline.net/trthaber",
+          "city": "Ankara"
+        },
+        {
+          "name": "TRT Radyo 1",
+          "url": "https://trt.radyotvonline.net/trt1",
+          "city": "Ankara"
+        },
+        {
+          "name": "NTV Radyo",
+          "url": "http://46.20.3.207/listen.pls",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Habertürk Radyo",
+          "url": "https://haberturkradyo.radyotvonline.net/haberturkradyo",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Bloomberg HT",
+          "url": "https://bloomberghtradyo.radyotvonline.net/bloomberghtradyo"
+        },
+        {
+          "name": "24 Radyo",
+          "url": "https://radyo24.radyotvonline.net/radyo24",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Radyo Spor",
+          "url": "http://46.20.4.5:8170/",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Lig Radyo",
+          "url": "https://ligradyo.radyotvonline.net/ligradyo"
+        },
+        {
+          "name": "Radyo Gol",
+          "url": "https://edge1.radyotvonline.net/shoutcast/play/radyogol"
+        },
+        {
+          "name": "Radyo Sputnik",
+          "url": "https://icecast-rian.cdnvideo.ru/voicestm"
+        },
+        {
+          "name": "Radyo 7",
+          "url": "http://46.20.3.250/;stream",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Meteorolojinin Sesi",
+          "url": "http://radyomgm.canliyayinda.com/;stream.mp3"
+        },
+        {
+          "name": "Radyo Trafik İstanbul",
+          "url": "http://37.247.100.118/stream/157/"
+        },
+        {
+          "name": "Radyo Trafik Ankara",
+          "url": "http://live2.radyotvonline.com:8000/"
+        },
+        {
+          "name": "Replay News Türkçe",
+          "url": "https://replaynewstr.ice.infomaniak.ch/replaynewstr-128.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Türkçe Pop",
+      "stations": [
+        {
+          "name": "Power Türk",
+          "url": "https://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Süper FM",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM.mp3",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Power Türk Taptaze",
+          "url": "https://listen.powerapp.com.tr/powerturktaptaze/mpeg/icecast.audio"
+        },
+        {
+          "name": "TRT FM",
+          "url": "https://trt.radyotvonline.net/trtfm",
+          "city": "Ankara"
+        },
+        {
+          "name": "Fenomen Türk",
+          "url": "https://live.radyofenomen.com/fenomenturk/128/icecast.audio",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Show Radyo",
+          "url": "http://showradyo.radyotvonline.net/showradyoaac/",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Alem FM",
+          "url": "https://turkmedya.radyotvonline.net/alemfmaac",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Süper 2 FM",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER2_SC.mp3"
+        },
+        {
+          "name": "Kiss Türk",
+          "url": "https://kiss.radyotvonline.net/kissturk"
+        },
+        {
+          "name": "Kiss Gold Türk",
+          "url": "https://dijimedya.radyotvonline.net/goldturk"
+        },
+        {
+          "name": "Radyo 35",
+          "url": "https://yayin.turkhosted.com/6012/stream"
+        },
+        {
+          "name": "Radio 44",
+          "url": "https://radyo44.80.yayin.com.tr/stream"
+        },
+        {
+          "name": "Arkadaş Radyo",
+          "url": "http://yayin2.yayindakiler.com:4134/;stream.nsv"
+        },
+        {
+          "name": "Köroğlu FM",
+          "url": "https://yayin.turkhosted.com:6068/stream?/;stream.mp3"
+        },
+        {
+          "name": "Radyo Venüs",
+          "url": "https://stream2.rtvtakip.com:7005/;stream.mp3"
+        },
+        {
+          "name": "Pop 90 Turkey",
+          "url": "http://21633.live.streamtheworld.com:3690/POP90AAC_SC"
+        },
+        {
+          "name": "90lar Türkiye",
+          "url": "http://37.247.98.8/stream/166/"
+        },
+        {
+          "name": "Radyo 45lik",
+          "url": "https://stream.radyo45lik.com:4545/",
+          "city": "İzmir"
+        },
+        {
+          "name": "Number 1 Türk Rap",
+          "url": "https://dijimedya.radyotvonline.net/turkrap"
+        },
+        {
+          "name": "Radyo D",
+          "url": "https://radyo.duhnet.tv/radyod",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Best FM",
+          "url": "https://officialbestfm.radyotvonline.net/bestfmofficial",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Kral Pop",
+          "url": "https://kralpopsc.radyotvonline.com/kralpopaac",
+          "city": "İstanbul"
+        },
+        {
+          "name": "TGRT FM",
+          "url": "https://icecasttgrt.ihlasdigitalassets.com/tgrtfm",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Radyo Viva",
+          "url": "http://46.20.3.231/radyovivampeg",
+          "city": "İstanbul"
+        }
+      ]
+    },
+    {
+      "name": "Slow",
+      "stations": [
+        {
+          "name": "Joy Türk",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK.mp3",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Slow Türk",
+          "url": "https://radyo.duhnet.tv/slowturk",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Power Love",
+          "url": "https://listen.powerapp.com.tr/powerlove/mpeg/icecast.audio"
+        },
+        {
+          "name": "Power Türk Akustik",
+          "url": "https://listen.powerapp.com.tr/powerturkakustik/mpeg/icecast.audio"
+        },
+        {
+          "name": "Power Türk Slow",
+          "url": "https://listen.powerapp.com.tr/powerturkslow/mpeg/icecast.audio"
+        },
+        {
+          "name": "Joy Türk Akustik",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOYTURK_AKUSTIK.mp3"
+        },
+        {
+          "name": "Power Smooth",
+          "url": "https://listen.powerapp.com.tr/powersmooth/mpeg/icecast.audio"
+        },
+        {
+          "name": "Best Slow",
+          "url": "https://hepsibest.radyotvonline.net/bestslow"
+        },
+        {
+          "name": "Kiss Türk Slow",
+          "url": "http://dijimedya.radyotvonline.net/turkslow"
+        },
+        {
+          "name": "Karma Türk Slow",
+          "url": "https://yayin.radyomadyo.com:8004/stream"
+        },
+        {
+          "name": "HayatMix Slow",
+          "url": "https://radyo.yayin.com.tr:4090/mp3"
+        },
+        {
+          "name": "Kalp FM",
+          "url": "https://yayin.kalpfm.com:8080/",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Kiss Love",
+          "url": "https://anadolu.liderhost.com.tr:10964/"
+        },
+        {
+          "name": "Dijital Slow",
+          "url": "http://anadolu.liderhost.com.tr:8076/radyo"
+        },
+        {
+          "name": "Kiss Slow",
+          "url": "https://radyo.slmbilisim.net/8004/stream"
+        },
+        {
+          "name": "Silhouette Slow FM",
+          "url": "https://anadolu.liderhost.com.tr:10973/"
+        },
+        {
+          "name": "Pal Nostalji",
+          "url": "http://shoutcast.radyogrup.com:1010/;",
+          "city": "İstanbul"
+        }
+      ]
+    },
+    {
+      "name": "Halk / Özgün",
+      "stations": [
+        {
+          "name": "Türkülerle Türkiye",
+          "url": "http://37.247.98.8/stream/22/"
+        },
+        {
+          "name": "Hatay Tempo FM",
+          "url": "https://sslyayin.netyayin.net:1215/stream"
+        },
+        {
+          "name": "Antakya Renk FM",
+          "url": "https://radyo.yayindakiler.com:3016/renk"
+        },
+        {
+          "name": "Radyo Munzur",
+          "url": "http://yayin1.yayindakiler.com:3002/;stream.nsv"
+        },
+        {
+          "name": "Ezgi Radyo Elazığ",
+          "url": "https://sslyayin.netyayin.net/elazigezgiradyo/stream/;"
+        },
+        {
+          "name": "Radyo Şiran",
+          "url": "https://live.radyositesihazir.com/8078/stream"
+        },
+        {
+          "name": "Radyo Seymen",
+          "url": "https://yayin.radyoseymen.com.tr:1070/stream",
+          "city": "İstanbul"
+        },
+        {
+          "name": "Yaren FM",
+          "url": "https://yarenfmn.80.yayin.com.tr//stream"
+        },
+        {
+          "name": "TürküRadyo 2",
+          "url": "https://yayin.turkhosted.com/4591/stream"
+        },
+        {
+          "name": "Erzincan Cem Radyo",
+          "url": "https://erzincan.80.yayin.com.tr/stream"
+        },
+        {
+          "name": "Erzincan Nostalji",
+          "url": "https://erzincannostalji.ozelip.com/8238/stream"
+        },
+        {
+          "name": "Radyo 2000 Erzincan",
+          "url": "https://radyo.yayindakiler.com:3030/stream?/;stream.mp3"
+        },
+        {
+          "name": "Radyo Ege Havaları",
+          "url": "http://37.247.98.8/stream/29/"
+        },
+        {
+          "name": "Radyo Karadeniz",
+          "url": "https://radyomar.80.yayin.com.tr/;"
+        },
+        {
+          "name": "Tarsus FM",
+          "url": "https://tarsusfm.80.yayin.com.tr//stream"
+        }
+      ]
+    },
+    {
+      "name": "Rock",
+      "stations": [
+        {
+          "name": "Power Türk Rock",
+          "url": "https://listen.powerapp.com.tr/powerturkrock/mpeg/icecast.audio"
+        },
+        {
+          "name": "Radyo Eksen",
+          "url": "http://eksenwmp.radyotvonline.com/;stream.mp3"
+        },
+        {
+          "name": "JoyTürk Rock",
+          "url": "http://23613.live.streamtheworld.com/JOYTURK_ROCK128AAC.aac"
+        },
+        {
+          "name": "Türk Rock FM",
+          "url": "https://yayin5.radyohizmeti.com/8090/stream"
+        },
+        {
+          "name": "Virgin Radio",
+          "url": "http://28933.live.streamtheworld.com:3690/VIRGIN_RADIO_SC"
+        },
+        {
+          "name": "Rock FM",
+          "url": "https://rockfm.rockfm.com.tr:9450/stream"
+        },
+        {
+          "name": "Rock Station",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_STATION128AAC.aac?/;stream.mp3"
+        },
+        {
+          "name": "İTÜ Radyosu Rock",
+          "url": "http://160.75.86.29:8095/"
+        },
+        {
+          "name": "Mood Rock",
+          "url": "https://radyo.yayin.com.tr:6321/;"
+        },
+        {
+          "name": "Max FM",
+          "url": "http://live2.radyotvonline.com:8025/"
+        },
+        {
+          "name": "Radyo ODTÜ",
+          "url": "http://stream.radyoodtu.com.tr/;"
+        }
+      ]
+    },
+    {
+      "name": "Zonguldak",
+      "stations": [
+        {
+          "name": "Enerji FM",
+          "url": "https://enerjifm.80.yayin.com.tr/stream",
+          "city": "Çaycuma"
+        },
+        {
+          "name": "Radyo General",
+          "url": "https://anadolu.liderhost.com.tr/9342/stream",
+          "city": "Zonguldak"
+        },
+        {
+          "name": "Radyo Kulüp",
+          "url": "https://radyo.yayin.com.tr:5894/stream",
+          "city": "Zonguldak"
+        },
+        {
+          "name": "Demokrat FM",
+          "url": "https://sonic.dcnet.com.tr/8078/stream",
+          "city": "Ereğli"
+        },
+        {
+          "name": "Ereğli FM",
+          "url": "http://radyo.yayindakiler.com:3000/stream",
+          "city": "Ereğli"
+        },
+        {
+          "name": "Devrek FM",
+          "url": "https://stream.turkiyeradyolari.com:8116/stream",
+          "city": "Devrek"
+        }
+      ]
+    }
+  ]
+}
