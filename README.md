@@ -362,7 +362,7 @@ esp32-internet-radyo/
 </p>
 
 Bu radyonun parça parça nasıl kurulduğunu, bağlantıları ve yazılımı **YouTube kanalımda** anlatıyorum.
-Elektronik, ESP32, Arduino ve amatör telsiz projeleri için kanala göz at:
+Diğer projeler için de kanala göz at:
 **[youtube.com/@TA2CAY](https://www.youtube.com/@TA2CAY)**
 
 Videoyu beğenip **abone olursan** ve yorumlarda soru sorarsan yeni projeler için çok destek olursun. 🙏
